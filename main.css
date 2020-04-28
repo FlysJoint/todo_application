@@ -22,7 +22,7 @@ flex-wrap: nowrap;
     background-color: rgba(19, 170, 27, 0.301);
     border: 1px solid black;
     height: fit-content;
-
+    margin-top: 25px;
 }
 
 .main-shelf {
