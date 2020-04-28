@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+}
+
+.screen {
+    min-width: 100%;
+}
+
+.task {
+    background-color: ivory;
+    border: 1px solid black;
+    height: 75px;
+}
+
+.task-box {
+    background-color: rgba(19, 170, 27, 0.301);
+    border: 1px solid black;
+    min-width: 200px;
+}
+
+.main-shelf {
+    max-height: 50px;
+    min-height: 25px;
+    background-color: brown;
+    border: 1px solid ivory;
+    top: 90%;
+}
+
+.shelf {
+    max-height: 50px;
+    min-height: 25px;
+    background-color: brown;
+    border: 1px solid ivory;
+    top: 90%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .shelf { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .shelf { display: none; }   /* hide it elsewhere */
+}
