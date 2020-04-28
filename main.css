@@ -1,9 +1,15 @@
 body {
     background-color: lightgrey;
+    overflow-y: scroll;
+}
+
+#nowrap {
+flex-wrap: nowrap;
 }
 
 .screen {
-    min-width: 100%;
+    width: auto;
+    overflow-x: scroll;
 }
 
 .task {
@@ -15,14 +21,15 @@ body {
 .task-box {
     background-color: rgba(19, 170, 27, 0.301);
     border: 1px solid black;
-    min-width: 200px;
+    height: auto;
+    bottom: 5%;
 }
 
 .main-shelf {
     max-height: 50px;
     min-height: 25px;
     background-color: brown;
-    border: 1px solid ivory;
+    border: 2px solid black;
     top: 90%;
 }
 
@@ -32,12 +39,4 @@ body {
     background-color: brown;
     border: 1px solid ivory;
     top: 90%;
-}
-
-@media screen and (min-width: 0px) and (max-width: 768px) {
-  .shelf { display: block; }  /* show it on small screens */
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .shelf { display: none; }   /* hide it elsewhere */
 }
