@@ -21,16 +21,33 @@
             </div>
             </div>
             <div class="card">
-                  <img class="card-img-top"  data-toggle="tooltip" data-placement="top" title="Optional priority" src="colours.png" height="12px" width="50%" alt="priority picker">
-                  <div class="card-body" style="width: auto";>
-                              <p class="card-title id-text"  data-toggle="tooltip" data-placement="left" title="Hidden task ID" display="inline">#008</p>
-                              <p class="card-text task-text" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</p>
-                        <p class="card-text col-12 task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do.</p>
-                        <a href="#" class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="This will do D">D</a>
-                        <a href="#" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Add task">A</a>
+                  <div class="card-body"  id="task-body" style="width: auto";>
+                        <div class="row">
+                              <!--<h6 class="card-title col-12" id="id-text" data-toggle="tooltip" data-placement="left" title="Hidden task ID">#008</h6>-->
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but I need it to cope, but not be too small.</p>               
+                              <div class="col-12 ">
+                                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                                          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="This will do 1">1</button>
+                                          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="This will do 2">2</button>
+                                          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="This will do 3">3</button>
+                                          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="This will do 4">4</button>
+                                          <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="This will do 5">5</button>
+                                    </div>
+                              </div>
+                              <p class="card-text task-text col-12" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</p>
+                              <a href="#" class="btn btn-primary col-6" data-toggle="tooltip" data-placement="bottom" title="Add task">A</a>
+                              <a href="#" class="btn btn-primary col-6" data-toggle="tooltip" data-placement="right" title="This will do D">D</a>                                                   
+                        </div>
                   </div>
             </div>
-            <div class="col-12 task"></div>
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <!--<h6 class="card-title col-11" id="id-text" data-toggle="tooltip" data-placement="left" title="Hidden task ID">#008</h6>-->
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
