@@ -12,8 +12,6 @@
   <div class="container screen">
     <div class="row" id="nowrap">
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task">
-            </div>
 
             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
                   <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="This will add task B">B</button>
@@ -23,8 +21,8 @@
                   <div class="card-body"  id="task-body" style="width: auto";>
                         <div class="row">
                               <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
-                              <h6 class="card-text id-text col-5" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
-                              <a href="#" class="btn btn-primary col-5" data-toggle="tooltip" data-placement="right" title="This will do D">D</a>  
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <a href="#" class="btn btn-primary col-2" data-toggle="tooltip" data-placement="right" title="This will do D">D</a>  
                               <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but I need it to cope, but not be too small.</p>               
                               <div class="col-12 ">
                                     <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
@@ -47,7 +45,8 @@
                   <div class="card-body" id="task-body" style="width: auto";>
                         <div class="row">
                               <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
-                              <h6 class="card-text id-text col-6" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
                               <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
                         </div>
                   </div>
@@ -56,85 +55,554 @@
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="completed-task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="completed-task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>0 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="completed-task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="completed-task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>3 Task(s)</h2>
       </div>
 
-      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end  task-box">
-            <div class="col-12 task"></div>
+      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
-      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end  task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <h2>2 Task(s)</h2>
       </div>
+
     </div>
   </div>
   <div class = "row main-shelf" id="nowrap"></div>
+
   <div class="container screen">
     <div class="row" id="nowrap">
+
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>1 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>4 Task(s)</h2>
       </div>
+
+      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
+      </div>
+
+      <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <h2>2 Task(s)</h2>
+      </div>
+
     </div>
   </div>
   <div class = "row main-shelf" id="nowrap"></div>
+
   <div class="container screen">
     <div class="row" id="nowrap">
+
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>1 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>1 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>4 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+            <h2>2 Task(s)</h2>
       </div>
 
       <div class="container col-12 col-md-6 col-lg-4 col-xl-3 align-self-end task-box">
-            <div class="col-12 task"></div>
-            <div class="col-12 task"></div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="card">
+                  <div class="card-body" id="task-body" style="width: auto";>
+                        <div class="row">
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="left" title="Tick/Untick to complete/uncomplete">T</h6>
+                              <h6 class="card-text id-text col-8" data-toggle="tooltip" data-placement="bottom" title="Optional deadline" display="inline">ddmmyy</h6>
+                              <h6 class="card-title col-2" id="id-text" data-toggle="tooltip" data-placement="right" title="Delete task">X</h6>
+                              <p class="card-text col-12" id="task-text" data-toggle="tooltip" data-placement="bottom" title="Add task text">Task text of summat I need to do, but I'm not sure how long the text will be. Hopefully not too long, but not be too small.</p>                                                 
+                        </div>
+                  </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="This opens Add task window">+</button>
+            </div>
+
+            <h2>2 Task(s)</h2>
       </div>
+
     </div>
   </div>
   <div class = "row main-shelf" id="nowrap"></div>
