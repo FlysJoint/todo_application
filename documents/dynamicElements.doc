@@ -1,0 +1,16 @@
+Number of 'shelves' (infinite?)
+Length of each shelf (dictated by task container number)
+
+Number of task containers
+Task container height (dictated by number of tasks)
+Number of tasks
+
+Task number (int) (dictated by number of tasks already added)
+Task number string (string) (dictated by number of tasks in task container)
+Task postion (dictated by B/N and when user added it)
+Task status (bool)
+Task string (string)
+Task priority (int)
+Task deadline (int) (dictated by days before deadline)
+Task Ds (array)
+Add task button position (dictated by task positions)
